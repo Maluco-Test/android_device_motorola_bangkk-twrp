@@ -239,6 +239,9 @@ TW_INCLUDE_CRYPTO_FBE := true
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+#TWRP.flags
+TARGET_TWRP_FLAGS:= $(SRC_TARGET_DIR)/system/etc/twrp.flags
+	
 #
 # For local builds only
 #
