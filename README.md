@@ -17,7 +17,7 @@ Rear Camera 2 | 8 MP f/2.2 UGA
 Rear Camera 3 | 50 MP f/1.88 OIS
 
 ### Kernel Source
-From SM6375-Devs BY: Anand
+From user 14 U1TC34.22-64-6 release-keys
 
 ### What's working!? :D
 - Touch (it should works on both displays)
@@ -32,7 +32,7 @@ From SM6375-Devs BY: Anand
 - MTP && USB Mode Storage
 
 ### What ISN'T working!? D:
-- Decryption(i think)
-- Flashing ROM
-- 
+- Decryption
+- Touch on custom roms (it works fine in stock rom)
+
 ### See Wiki for build this source
