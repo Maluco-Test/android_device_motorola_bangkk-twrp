@@ -242,3 +242,6 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 #TWRP.flags
 TARGET_TWRP_FLAGS:= $(DEVICE_PATH)/system/etc/twrp.flags
+
+#Dependecies
+$(call inherit-product, $(DEVICE_PATH)/twrp.dependecies)
