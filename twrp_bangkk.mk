@@ -28,9 +28,6 @@ $(call inherit-product, device/motorola/bangkk/device.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Import OrangeFox specifics
-$(call inherit-product-if-exists, device/xiaomi/tapas/fox_tapas.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := bangkk
 
