@@ -17,22 +17,23 @@ Rear Camera 2 | 8 MP f/2.2 UGA
 Rear Camera 3 | 50 MP f/1.88 OIS
 
 ### Kernel Source
-From SM6573-DEVS
+From <a href="https://github.com/Motorola-SM6375-Devs/android_kernel_motorola_sm6375"> SM6375-DEVS </a>
 
 ### What's working!? :D
-- Touch (it should works on both displays)
+- Touch (it should works on both displays and custom with device tree by anand)
 - Backup && Restore
 - Wipe /data
-- CPU Temp 
+- CPU Temp
 - Battery && Time
 - Brightness
 - MicroSD Card && USB OTG
 - Mouse through USB OTG
-- Flashing zips
+- Flashing zips(Root, copy partitions)
 - MTP && USB Mode Storage
 
 ### What ISN'T working!? D:
-- Decryption
-- Touch on custom roms by vishal
+- Decryption(i think)
+- Touch on custom roms(device tree by vishal)
+- Flashing zips(Custons ROMs and MOEKernel)
 
 ### See Wiki for build this source
