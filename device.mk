@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_sys_temp.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_sys_temp.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/moto_f_usbnet.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/moto_f_usbnet.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/q6_notifier_dlkm.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/q6_notifier_dlkm.ko \
-    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/qpnp-smb5-main.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/qpnp-smb5-main.ko.ko \
+    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/qpnp-smb5-main.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/qpnp-smb5-main.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/qpnp_adaptive_charge.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/qpnp_adaptive_charge.ko 
 
 
