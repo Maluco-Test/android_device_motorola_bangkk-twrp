@@ -114,7 +114,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_annotate.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_annotate.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_info.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_info.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_parallel_charger_iio.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_parallel_charger_iio.ko \
-    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_relay.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_relay.ko \
+    $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_relay.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_relay.ko 
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/mmi_sys_temp.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/mmi_sys_temp.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/moto_f_usbnet.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/moto_f_usbnet.ko \
     $(LOCAL_PATH)/recovery/root/vendor/lib/modules/1.1/q6_notifier_dlkm.ko:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1/q6_notifier_dlkm.ko \
