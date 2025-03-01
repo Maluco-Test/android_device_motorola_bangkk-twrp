@@ -30,6 +30,7 @@ PRODUCT_PLATFORM := holi
 
 # A/B support
 AB_OTA_UPDATER := true
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 LOCAL_PATH := device/motorola/bangkk
 
