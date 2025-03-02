@@ -35,3 +35,4 @@
 /vendor_image          emmc      /dev/block/bootdevice/by-name/vendor           flags=backup=1;display="Vendor image";flashimg=1
 /product_image         emmc      /dev/block/bootdevice/by-name/product          flags=backup=1;display="Product image";flashimg=1
 /system_ext_image      emmc      /dev/block/bootdevice/by-name/system_ext       flags=backup=1;display="System_ext image";flashimg=1
+/super                 emmc      /dev/block/bootdevice/by-name/super            flags=backup=1;display="Super image";flashimg=1
