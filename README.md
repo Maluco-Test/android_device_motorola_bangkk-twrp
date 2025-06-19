@@ -37,3 +37,5 @@ From <a href="https://github.com/Motorola-SM6375-Devs/android_kernel_motorola_sm
 - Flashing zips(Custons ROMs and MOEKernel)
 
 ### See Wiki for build this source
+
+Base 1: https://github.com/PrintHelloPeople/android_device_motorola_fogos-twrp
