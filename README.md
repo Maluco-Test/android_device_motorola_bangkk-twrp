@@ -34,5 +34,3 @@ From user 13 T3TCS33.18-48-6-2 release-keys
 
 ### What ISN'T working!? D:
 - Touch on custom roms (it works fine in stock rom)
-
-### See Wiki for build this source
