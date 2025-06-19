@@ -1,19 +1,15 @@
 # Recovery Fstab For Moto G84 5G
 # By @Samw662
 
+
 #device         mount point      fstype        [device2] [length=]
 
 # Logical Partitions
-system                                                  /system                ext4    rw,barrier=1,discard                                 wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
-system                                                  /system                erofs   rw                                           wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
-system_root                                             /system                ext4    rw,barrier=1,discard                                 wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
-system_root                                             /system                erofs   rw                                           wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
-system_ext                                              /system_ext            ext4    rw,barrier=1,discard                               wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
-system_ext                                              /system_ext            erofs   rw                                           wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
-product                                                 /product               ext4    rw,barrier=1,discard                                 wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
-product                                                 /product               erofs   rw                                           wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
-vendor                                                  /vendor                ext4    rw,barrier=1,discard                                 wait,slotselect,avb=vbmeta_vendor,logical,first_stage_mount
-vendor                                                  /vendor                erofs   rw                                           wait,slotselect,avb=vbmeta_vendor,logical,first_stage_mount
+system                                                  /system                ext4    rw,barrier=1,discard                         wait,slotselect,logical
+system_root                                             /system                ext4    rw,barrier=1,discard                         wait,slotselect,logical
+system_ext                                              /system_ext            ext4    rw,barrier=1,discard                         wait,slotselect,logical
+product                                                 /product               ext4    rw,barrier=1,discard                         wait,slotselect,logical
+vendor                                                  /vendor                ext4    rw,barrier=1,discard                         wait,slotselect,logical
 
 # Physical Partitions
 /dev/block/by-name/metadata                             /metadata              ext4    noatime,nosuid,nodev,discard,data=ordered,barrier=1  wait,check,formattable,first_stage_mount
