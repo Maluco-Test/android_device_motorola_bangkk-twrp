@@ -27,6 +27,7 @@
 
 import /init.recovery.qcom_decrypt.rc
 
+
 on boot
     start health-hal-2-1
     write /sys/fs/selinux/enforce 0
@@ -43,7 +44,6 @@ on fs
     # Mount firmware
     mkdir /firmware
  umount /firmware
-service set_permissive /system/bin/set_permissive.sh
     user root
     group root
     oneshot
