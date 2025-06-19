@@ -1,4 +1,5 @@
 #
+#
 # Copyright (C) 2022 The Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -236,7 +237,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_SYSTEM := system
 
 # Kernel module loading
-TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules/1.1)\")
+TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modules)\")
 
 # Include decryption support
 TW_INCLUDE_CRYPTO := true
@@ -246,7 +247,7 @@ TW_INCLUDE_CRYPTO_FBE := true
 ALLOW_MISSING_DEPENDENCIES := true
 
 #TWRP.flags
-TARGET_TWRP_FLAGS:= $(DEVICE_PATH)/system/etc/twrp.flags
+TARGET_TWRP_FLAGS:= $(DEVICE_PATH)/recovery/root/system/etc/twrp.flags
 
 # Partitions that should be wiped under recovery 
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/root/system/etc/recovery.wipe
